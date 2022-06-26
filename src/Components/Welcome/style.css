@@ -1,3 +1,6 @@
+.btn-start{
+    background-color: white;
+}
 
 /* media query starts */
 
@@ -235,7 +238,6 @@ section.section-one{
 
 .section-one-content button{
   padding: 15px; 
-  border: 2px solid red;
   border-radius: 100px;
   cursor: pointer;
   display: hidden;
@@ -249,7 +251,6 @@ section.section-one{
 }
 
 .section-one-content button a{
-  color: rgb(241, 2, 241);
   font-size: 20px;
   text-decoration: none;
   padding: 20px;

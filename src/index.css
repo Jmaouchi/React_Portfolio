@@ -6,7 +6,7 @@
 }
 
 :root{
-  --main-color:rgb(72, 74, 207);
+  --main-color:rgb(72, 207, 119);
   --black:black;
   --white:white;
   --border-radius: 50px;
@@ -27,10 +27,7 @@ body:hover h2{
 body:hover .section-one button{
   background-color: var(--main-color);
   color: var(--white);
-}
-
-body:hover .section-one button a{
-  color: var(--white);
   transition: 1.3s;
   font-weight: bold;
 }
+

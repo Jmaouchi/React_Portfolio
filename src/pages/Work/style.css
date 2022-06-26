@@ -468,36 +468,6 @@ section.section-one{
   margin: 10px;
 }
 
-.section-one-content button{
-  padding: 15px; 
-  border: 2px solid red;
-  border-radius: 100px;
-  cursor: pointer;
-  display: hidden;
-}
-
-.button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.section-one-content button a{
-  color: rgb(241, 2, 241);
-  font-size: 20px;
-  text-decoration: none;
-  padding: 20px;
-}
-
-
-.section-one-content button:hover  {
-  background-color: var(--main-color);
-}
-
-.section-one-content button:hover a{
-  color: var(--color-black);
-} 
 
 
 
