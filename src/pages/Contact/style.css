@@ -1,20 +1,59 @@
-:root{ 
-  --main-color:rgb(0, 255, 213);
-  --border-radius:50px;
-  --color-white:white;
-  --color-black:black;
+/* section four starts or section get in touch  */
+.section-four {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  width: 100%;
+  margin-top: 50px;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-transform: capitalize;
+.section-four-context {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin: 20px;
+
 }
 
-body{
-  font-family: 'Courier New', Courier, monospace;
+.section-four-context-content {
+  margin:45px;
+  padding: 20px;
 }
+
+.section-four-context img {
+  border-radius: var(--border-radius);
+  border: 2px solid var(--main-color);
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 90px;
+}
+
+.section-four-context img:hover{
+  width: 70px;
+  
+}
+
+.section-four-context h5{
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.section-four-context p {
+  font-size: 15px;
+}
+
+
+.text-me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-me button {
+  padding: 15px;
+}
+
 
 
 
@@ -400,6 +439,10 @@ header ul li:hover{
     font-size: 38px;
   }
 
+  span{
+    font-size: 18px;
+  }
+
   .navbar li a:hover{
     color:var(--main-color);
     border-bottom: none;
@@ -513,9 +556,9 @@ header ul li:hover{
     width: 70px;
   }
 
+  textarea{
+    background-color: red;
+  }
+
 }
-
-
-
-
 

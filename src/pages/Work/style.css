@@ -1,19 +1,225 @@
-:root{ 
-  --main-color:rgb(0, 255, 213);
-  --border-radius:50px;
-  --color-white:white;
-  --color-black:black;
+/* section three starts or section my work */
+section.section-three{
+  background-color: var(--color-black);
+  color: var(--main-color);
+  width: 100%;
+  margin-top: 50px;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-transform: capitalize;
+section.section-three .section-three-content-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 25px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 
-body{
-  font-family: 'Courier New', Courier, monospace;
+.section-three-content-wrap .col{
+  position: relative;
+  flex: 1 1 33%;
+  margin-top: 50px;
+  background-color: #024e76;
+  color: var(--color-white);
+  padding: 10rem 6rem;
+  text-align: center;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  box-shadow: 0px 0px 10px var(--main-color);
+  z-index: 100;
+}
+
+.section-three-content-wrap .col.run-buddy::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: url('../../images/runBudy.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+
+.section-three-content-wrap .col.video-gallery::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: url('../../images/videoGallery.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+
+.section-three-content-wrap .col.todo-list::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: url("../../images/todo\ list.png");
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+
+.section-three-content-wrap .col.coffee-website::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: url('../../images/coffeeWebsite.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+
+.section-three-content-wrap .col.task-list::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: url('../../images/todo\ list.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+.section-three-content-wrap .col.color-changing::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: url('../../images/colorChanging.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+.section-three-content-wrap .col.weather-recipe::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  /* background-image: url('../../images/readme.gif'); */
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+
+.section-three-content-wrap .col.scheduler::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: url('../../images/Schedule.png');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  opacity: 30%;  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+
+
+.section-three-content-wrap .col:hover{
+  background-color: var(--color-black);
+  color: var(--main-color);
+}
+
+.section-three-content-wrap .col:active{
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.section-three-content-wrap .col h4{
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.section-three-content-wrap .col p{
+  font-size: 20px;
+  margin-top: 25px;
+  color: var(--color-white);
+}
+
+.section-three-content-wrap .col .btn{
+  margin-top: 5rem;
+  display: inline-block;
+  padding: .9rem 3rem;
+  font-size: 1.3rem;
+  background: var(--color-black);
+  cursor: pointer;
+  text-align: center;
+  border-radius:100px;
+  border: 1px solid var(--color-black);
+}
+
+.section-three-content-wrap .col .btn a{
+  display: flex; /* i displayed it as flex to add padding whithout effecting the text positioning. this will allow us whenever we click the outside of the a tag it will still run the click */
+  text-align: center;
+  align-items: center;
+  padding: 0 20px 0 20px;
+  color: var(--color-white);
+}
+
+.section-three-content-wrap .col:active .btn{
+  background-color: var(--color-black);
+}
+.section-three-content-wrap .col:active .btn a{
+  color: var(--color-white);
+}
+
+.section-three-content-wrap .col:hover button{
+  background-color: var(--color-black);
+  border: 1px solid var(--color-white);
+}
+
+.section-three-content-wrap .col:hover button a{
+  color: var(--main-color);
+}
+
+.section-three-content-wrap .col .btn a{
+  text-decoration: none;
 }
 
 
@@ -514,8 +720,4 @@ header ul li:hover{
   }
 
 }
-
-
-
-
 

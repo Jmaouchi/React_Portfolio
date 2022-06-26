@@ -5,16 +5,130 @@
   --color-black:black;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-transform: capitalize;
+/* adding a scrollbar for the page */
+html::-webkit-scrollbar{
+  width: 1rem;
 }
 
-body{
-  font-family: 'Courier New', Courier, monospace;
+html::-webkit-scrollbar-track{
+  background:var(--color-black);
 }
+
+html::-webkit-scrollbar-thumb{
+  background:var(--main-color);
+  border-radius: 5px;
+}
+
+span{
+  margin-left: 20px;
+}
+
+
+li{
+  color: white;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* header start here */
+.section-one{
+  background-image: url('../../images/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+header {
+  background-image: url('../../images/section-one-image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px 15px;
+}
+
+header h1{
+  font-size: 25px;
+  color: var(--main-color);
+  cursor: pointer;
+  text-shadow: 5px 15px 10px var(--main-color);
+}
+
+header h2{
+  position: relative;
+  font-size: 35px;
+  color:var(--main-color);
+  text-transform: initial;
+}
+
+header h2::before{
+  content:attr(data-text);
+  position: absolute;
+  top:0;
+  left:0;
+  width:0;
+  height: 100%;
+  color:var(--color-white);
+  -webkit-text-stroke: 0vw rgb(36, 35, 35); /*( here its 0vw and it will be hidden)*/
+  border-right: .002px initial var(--main-color);
+  overflow:hidden;
+  animation: animate 3s linear infinite; /* the animation will take 3s */
+} 
+@keyframes animate {
+  0%{
+    width: 0%;
+  }
+  70%{
+    width: 100%;
+  }
+}
+
+
+header ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header ul li a{
+  text-decoration: none;
+  padding: 15px 15px;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+}
+
+ .navbar li a:hover{
+  color:var(--main-color);
+  border-bottom: 2px solid;
+  padding-bottom: .5rem;
+  letter-spacing: 1px;
+}
+/* header ends here   */
+
+
+/* section one starts here */ 
+.section-one-one {
+  width: 100%;
+  background-image: url('../../images/section-one-image.jpg');
+  background-attachment: fixed;
+  background-position: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  min-height: 100vh;
+}
+/* section one ends */
 
 
 
@@ -514,8 +628,4 @@ header ul li:hover{
   }
 
 }
-
-
-
-
 

@@ -1,20 +1,86 @@
-:root{ 
-  --main-color:rgb(0, 255, 213);
-  --border-radius:50px;
-  --color-white:white;
-  --color-black:black;
+/* section two starts or section about me  */
+.section-two{
+  margin-top: 50px;
+  color: var(--main-color);
+  background-color: black;
+  width: 100%;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-transform: capitalize;
+.flex{
+  padding: 60px 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-body{
-  font-family: 'Courier New', Courier, monospace;
+.flex h3{
+  font-size: 35px;
+  font-weight: lighter;
 }
+
+.flex span{
+    color: var(black);
+    background-color:var(--main-color);
+    padding: 5px;
+    border-radius: var(--border-radius);
+    margin: 15px;
+}
+
+.flex .border {
+  width: 40px;
+  background-color:var(--main-color);
+  height: 1.5px;
+  margin: 10px;
+}
+
+
+.section-two-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-two-content .image{
+  opacity: 60%;
+  width: 50%;
+  margin-top: 35px;
+}
+
+.section-two-content .image img {
+  border-radius: var(--border-radius);
+  width: 100%;
+}
+
+.section-two-content .section-two-content-context {
+  width: 35%;
+  text-align: center;
+  margin: 3.5%;
+  color: var(--color-white);
+  font-size: 13px;
+}
+
+.section-two-content-context p{
+  font-size: 17px;
+}
+
+.about-me-context {
+  border-bottom: 1px solid var(--main-color);
+  border-radius: var(--border-radius);
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.about-me-context h4{
+  margin-bottom: 15px;
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.bellow{
+  font-size: 30px;
+}
+/* section two ends */
+
 
 
 
@@ -514,8 +580,4 @@ header ul li:hover{
   }
 
 }
-
-
-
-
 

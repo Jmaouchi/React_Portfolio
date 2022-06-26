@@ -1,0 +1,93 @@
+
+.container {
+  background-color: rgb(50, 49, 49);
+  border-radius: 50px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 55px;
+}
+
+.container:hover{
+  background-color: rgb(4, 7, 7);
+  color: rgb(245, 241, 241);
+  border: 1px solid white;
+}
+
+
+.headin-h1tag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+
+form {
+  width: 40%;
+}
+
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  margin-top: 15px;
+  border: 3px solid  rgb(17, 220, 190);
+  background-color: rgb(169, 171, 171);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+
+textarea {
+	width: 600px;
+	height: 120px;
+  border: 3px solid  rgb(17, 203, 220);
+  background-color: rgb(169, 171, 171);
+  border-radius: 15px;
+	padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submit{
+	background: rgb(3, 3, 3);
+  border: 1px solid  rgb(13, 188, 207);
+	border-radius: 5px;
+	color: rgb(13, 188, 207);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
+.submit:hover{
+  background-color: aqua;
+  border: black;
+  color: black;
+}
+
+label{
+  font-size: 17px;
+}
+
+.context{
+  margin-top: 25px;
+}
+
+
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    textarea{
+      width: 250px;
+    }
+  
+  }
