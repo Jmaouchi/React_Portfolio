@@ -12,7 +12,7 @@ function Nav(pageSelected, setPageSelected) {
       
       <nav>
         <ul className='navbar'>
-          <li ><a href="http://localhost:3000/">Home</a></li>
+          <li ><a href="https://jmaouchi.github.io/React_Portfolio/">Home</a></li>
           <li><Link to={"about"}>About</Link></li>
           <li><Link to={"contact"}>Contact</Link></li>
           <li><Link to={"work"}>Work</Link></li>
