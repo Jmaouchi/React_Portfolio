@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/React_Portfolio/static/css/main.a9288546.css",
-    "main.js": "/React_Portfolio/static/js/main.fec7d675.js",
+    "main.css": "/React_Portfolio/static/css/main.1b17c0eb.css",
+    "main.js": "/React_Portfolio/static/js/main.b20c9cd6.js",
     "static/js/787.a2cb61a6.chunk.js": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/logo.svg": "/React_Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/coffeeWebsite.png": "/React_Portfolio/static/media/coffeeWebsite.ad539d084f06ba8420e2.png",
+    "static/media/runBudy.png": "/React_Portfolio/static/media/runBudy.219f47fdd7563527ede9.png",
+    "static/media/videoGallery.png": "/React_Portfolio/static/media/videoGallery.4e6f5ce247dd1ebb502b.png",
+    "static/media/background.png": "/React_Portfolio/static/media/background.345b607a4b18496e1091.png",
+    "static/media/djigo.jpg": "/React_Portfolio/static/media/djigo.ed9791f4ec343ec19831.jpg",
+    "static/media/Schedule.png": "/React_Portfolio/static/media/Schedule.e1f2811563f5c2d3d54f.png",
+    "static/media/colorChanging.png": "/React_Portfolio/static/media/colorChanging.a379e7c0b7ce83c6d688.png",
+    "static/media/section-one-image.jpg": "/React_Portfolio/static/media/section-one-image.45f60d16243137a03d18.jpg",
+    "static/media/email.png": "/React_Portfolio/static/media/email.3b2295ce37dbe969fba4.png",
+    "static/media/todo list.png": "/React_Portfolio/static/media/todo list.e4f3ac7151cbed954b97.png",
+    "static/media/instagram.png": "/React_Portfolio/static/media/instagram.b017ebaef042f86007fc.png",
     "index.html": "/React_Portfolio/index.html",
-    "main.a9288546.css.map": "/React_Portfolio/static/css/main.a9288546.css.map",
-    "main.fec7d675.js.map": "/React_Portfolio/static/js/main.fec7d675.js.map",
+    "main.1b17c0eb.css.map": "/React_Portfolio/static/css/main.1b17c0eb.css.map",
+    "main.b20c9cd6.js.map": "/React_Portfolio/static/js/main.b20c9cd6.js.map",
     "787.a2cb61a6.chunk.js.map": "/React_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9288546.css",
-    "static/js/main.fec7d675.js"
+    "static/css/main.1b17c0eb.css",
+    "static/js/main.b20c9cd6.js"
   ]
 }
